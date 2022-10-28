@@ -41,6 +41,31 @@
   z-index: 1000;
 
 }
+.navigation-menu a{
+  text-decoration: none;
+  color: black;
+}
+.Dropdown-root{
+  max-width: 200px!important;
+  margin-left: -50px!important;
+  padding-right: 20px;
+}
+.Dropdown-control{
+  background-color: rgba(189, 235, 224, 1)!important;
+  border: none!important;
+  margin-top: -8px;
+  font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    /* width: 100px; */
+}
+.Dropdown-placeholder{
+  width: 200px;
+}
+.Dropdown-arrow{
+  border-color: #0b0a0a transparent transparent!important;
+  right: 0px!important;
+}
+
 .login{
   justify-self: flex-end;
   display: flex;
